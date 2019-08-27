@@ -43,6 +43,13 @@ namespace CUITest1
             Assert.IsTrue(false);
         }
 
+        [TestMethod]
+        public void FailingTest2()
+        {
+            // this test fails
+            Assert.AreEqual("string1", "string2");
+        }
+
         #region Additional test attributes
 
         // You can use the following additional attributes as you write your tests:
