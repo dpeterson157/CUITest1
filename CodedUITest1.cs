@@ -29,6 +29,13 @@ namespace CUITest1
             Assert.IsTrue(true);
         }
 
+        public void PassingTest2()
+        {
+            string actual = "string";
+            // This test also passes.
+            Assert.AreEqual("string", actual);
+        }
+
         [TestMethod]
         public void FailingTest1()
         {
